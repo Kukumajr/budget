@@ -1,0 +1,37 @@
+.login-block{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+}
+
+.login-inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    vertical-align: bottom;
+}
+
+.login-other-wrapper{
+    margin-top: 30px;
+}
+.login-other-wrapper button{
+    width: 100%;
+}
+
+.login-register-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+.login-remember-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
